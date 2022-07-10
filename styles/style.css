@@ -16,6 +16,46 @@
     grid-template-columns: repeat(3,1fr);
 }
 
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) 2fr;
+}
+
+.grid-container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.game-description{
+    grid-template-columns: 1/4;
+    text-align: justify;
+    margin: 10 px;
+}
+
+.float-img{
+    float:right;
+    padding: 0 20px 20px 0;
+    width:100%;
+}
+
+.float-img2{
+    float: right;
+    padding: 0 20px 20px 0;
+    grid-template-columns: 3/4;
+    width: 65%;
+    margin: 10px;
+}
+
+ol {
+    font-size: larger;
+    font-weight: bold;
+}
+
+li {
+    font-size:medium;
+    font-weight: normal;
+}
+
 #hero-img{
     grid-column: 1/4;
     width:100%;
